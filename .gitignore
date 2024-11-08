@@ -1,3 +1,9 @@
+# File created by MacOS AFAIK
+.DS_Store
+
+# Obsidian config dir
+C\,\ C++\ PROJECT/.obsidian/
+
 # Prerequisites
 *.d
 
