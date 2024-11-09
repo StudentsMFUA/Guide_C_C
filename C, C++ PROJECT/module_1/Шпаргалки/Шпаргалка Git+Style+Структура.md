@@ -1,12 +1,12 @@
 # Основные команды
 
 ## Создание структуры проекта
-```sh
+```bash
 mkdir -p src
 ```
 
 ## Компиляция и запуск программы
-```sh
+```bash
 gcc -Wall -Werror -Wextra -std=c11 -o hello src/hello.c
 ```
 
@@ -17,8 +17,8 @@ Language: Cpp
 Standard: Cpp11
 ```
 
-## Создайте файл hello.c в директории src:
-```sh
+## Создание файла hello.c в директории src:
+```bash
 touch src/hello.c
 ```
 
@@ -28,29 +28,29 @@ touch src/hello.c
 ```
 
 ## Проверка стиля кода
-```sh
+```bash
 clang-format -i src/hello.c
 ```
 
 # Работа с git
 ## Инициализируйте репозиторий git, если он еще не инициализирован:
-```sh
+```bash
 git init
 ```
 
 ##  Создайте ветку develop:
-```sh
+```bash
 git checkout -b develop
 ```
 
 ## Добавьте и закоммитьте файл hello.c
-```sh
+```bash
 git add src/hello.c
 git commit -m "Add hello.c with 'Hello, AI!' output"
 ```
 
 ## Опубликуйте изменения в удалённый репозиторий
-```sh
+```bash
 git remote add origin <URL вашего репозитория>
-git push -u origin develop
+git pubash -u origin develop
 ```
